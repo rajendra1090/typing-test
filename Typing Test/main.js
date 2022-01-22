@@ -39,7 +39,7 @@ const compareWord =(str1, str2)=>{
     let word1= str1.split(" ");
     let word2= str2.split(" ");
     let count=0;
-    word1.forEach(function (item, ind){
+    word1.forEach(function (item, index){
         if(item ==word2[index]){
             count++;
         }
